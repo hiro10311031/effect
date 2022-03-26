@@ -1,0 +1,201 @@
+/* PC、スマホ共通スタイル */
+body {
+  font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
+}
+
+p {
+  font-size: 2rem;
+}
+
+/*================
+ PC用のスタイル 
+=================*/
+
+/* 基本設定 */
+.button-style{
+  background-color: aqua;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+/* 横幅設定 */
+body {
+  max-width: 95%;
+  min-width: 960px;
+  margin: 0 auto 0 auto;
+}
+
+
+
+/* ヘッダー */
+/* トップナビゲーションのレイアウト */
+.topnav-style{
+  display: flex;
+  justify-content: space-between;
+  max-width: 95%;
+  margin: 0 auto 0 auto;
+
+}
+
+#topnav-pc {
+  text-align: right;
+  font-size: 14px;
+  padding-top: 15px;
+}
+
+
+#topnav-pc > a{
+  text-decoration: none;
+  margin-left: 20px;
+
+}
+
+#topnav-pc > a:link {
+  color: #0d0d0d;
+}
+
+#topnav-pc > a:visited {
+  color: #0d0d0d;
+}
+
+#topnav-pc > a:hover {
+  color: #0d0d0d;
+  text-decoration: underline;
+}
+
+#topnav-pc > a:active {
+  color: #0d0d0d;
+}
+
+/* ダウンナビゲーションのレイアウト */
+.downnav-style{
+  align-items: center;
+  vertical-align: middle;
+
+
+  max-width: 95%;
+  margin: 0 auto 0 auto;
+
+}
+
+#downnav-pc {
+  text-align: center;
+  font-size: 18px;
+  padding-top: 15px;
+}
+
+
+#downnav-pc > a{
+  text-decoration: none;
+  margin-left: 120px;
+
+}
+
+#downnav-pc > a:link {
+  color: #0d0d0d;
+}
+
+#downnav-pc > a:visited {
+  color: #0d0d0d;
+}
+
+#downnav-pc > a:hover {
+  color: #0d0d0d;
+  text-decoration: underline;
+}
+
+#downnav-pc > a:active {
+  color: #0d0d0d;
+}
+
+/* メインビジュアル */
+#main-visual {
+  position: relative;
+  height: 700px;
+
+}
+
+#main-message {
+  position: absolute;
+  color: #ffffff;
+  max-width: 620px;
+  height: 100%;
+  width: 100%;
+}
+
+#main-message > h1 {
+  font-size: 46px;
+  color: #0d0d0d;
+  margin: 150px 0 0 50px ;  
+}
+
+#main-message > p {
+  font-size: 12px;
+  color: #0d0d0d;
+  margin: 50px 0 0 50px ;  
+}
+
+#main-message > a {
+  display: inline-block;
+  font-size: 24px;
+  color: #0d0d0d;
+  margin: 100px 0 0 50px ;  
+}
+
+#main-visual > img {
+  max-width: 700px;
+  position: absolute;
+  top: 50px;
+  right: 0;
+}
+
+/* Aboutビジュアル */
+#about-visual {
+  position: relative;
+  height: 500px;
+}
+
+#about-visual > img {
+  max-width: 600px;
+  position: absolute;
+  top: 0px;
+  left:30px;
+  z-index: 2;
+}
+
+#about-message {
+  position: absolute;
+  background-color: blue;
+  height: 450px;
+  top: 50px;
+  left:250px;
+  z-index: 1;
+}
+
+#about-message > h1 {
+  font-size: 46px;
+  color: #ffffff;
+  margin: 50px 0 0 500px ;  
+}
+
+#about-message > h2 {
+  font-size: 36px;
+  color: #ffffff;
+  margin: 20px 0 0 500px ;  
+}
+
+#about-message > p {
+  font-size: 12px;
+  color: #ffffff;
+  margin: 20px 50px 50px 500px ;  
+}
+
+#about-message > a {
+  display: inline-block;
+  font-size: 24px;
+  color: #0d0d0d;
+  margin: 100px 0 0 500px ;  
+}
+
+
+
